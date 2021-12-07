@@ -8,5 +8,9 @@ const timeRemaining = (launchDate, missionName, fakeToday) => {
   const newDate =
     parseInt(launchDate.split('-').pop()) - new Date(today).getDate()
   finalObj.daysRemaining = newDate
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
   return finalObj
 }
