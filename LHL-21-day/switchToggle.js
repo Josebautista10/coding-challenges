@@ -6,8 +6,6 @@
 
 const switchToggle = (toggle) => {
   // Code here!
-
-  // Remember to return a value!
   toggle.isOn = !toggle.isOn
   return toggle
 }
